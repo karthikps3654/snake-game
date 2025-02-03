@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yellowtail&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background: url(../items/bg.jpeg);
+    background-size:100vw 100vh ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#item{
+    margin: 0px 20px;
+}
+
+#board{
+    background:linear-gradient(rgb(216, 108, 126) , rgb(73, 211, 73));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+
+}
+
+.head{
+    background-color: rgb(178, 8, 194);
+    border: 2px solid black;
+    transform: scale(1.2);
+    border-radius: 9px;
+
+}
+
+.snake{
+    background-color: rgb(8, 5, 8);
+    /* border: .25vmin solid white; */
+    border-radius: 12px;
+
+}
+
+.food{
+    background:linear-gradient(red , rgb(13, 0, 128));
+    border: .25vmin solid black;
+}
+
+.maker{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* border: 2px solid red; */
+    /* background-color: rgba(0, 255, 255, 0.37); */
+    width: 59vmin;
+    height: 92vmin;
+    /* border: 2px solid black; */
+}
+
+.maker h1{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Yellowtail', cursive;
+    padding: 18px;
+    /* margin: 25px; */
+    margin: 14px;
+    font-size:42px;
+    background-color: rgba(72, 230, 236, 0.884);;
+    border-radius: 22px;
+    box-shadow: inset 3px 5px rgb(211, 111, 169);
+    text-shadow: -3px -2px 2px rgb(185, 72, 72);
+}
+
+#scoreBox{
+    font-family: 'Bebas Neue', cursive;
+    padding: 18px;
+    /* margin: 25px; */
+    margin: 14px;
+    font-size:42px;
+    background-color: rgba(36, 196, 196, 0.884);
+    border-radius: 22px;
+    box-shadow: inset 3px 5px rgb(132, 130, 196);
+    
+}
+#hiscoreBox{
+    font-family: 'Bebas Neue';
+    padding: 18px;
+    margin: 14px;
+    font-size:42px;
+    background-color: rgba(163, 184, 90, 0.884);;
+    border-radius: 22px;
+    box-shadow: inset 3px 5px rgb(172, 95, 101);
+}
+
+#extra{
+    padding: 18px;
+    margin: 14px;
+    /* margin: 25px; */
+    font-size:42px;
+    background-color: rgba(103, 180, 84, 0.884);;
+    border-radius: 22px;
+    box-shadow: inset 3px 5px rgb(156, 89, 147);
+}
