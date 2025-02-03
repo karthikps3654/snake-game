@@ -13,4 +13,4 @@ CSS for styling and adventure-themed aesthetics
 JavaScript for game logic and interactivity
 ![Adventure Snake Game Screenshot]url(../items/WhatsApp Image 2024-10-29 at 10.56.17 AM.jpeg)
 Contributing
-Pull requests are welcome! Feel free to suggest new features, report bugs, or improve code quality.
+Pull requests are welcome! Feel free to suggest new features, report bugs, or improve of the quality.
